@@ -4,6 +4,7 @@ document.querySelector('#app').innerHTML = `
 <h1>Count up</h1>
 <div class="number factories"></div>
 <div class="number patents"></div>
+<div class="number partners"></div>
 `;
 
 const countup = (num, end, step, elem) => {
@@ -28,6 +29,13 @@ const statusItems = [
     start: 0,
     end: 50,
     class: 'patents',
+    step: 3
+  },
+  {
+    title: "partners",
+    start: 0,
+    end: 110,
+    class: 'partners',
     step: 3
   }
 ];
