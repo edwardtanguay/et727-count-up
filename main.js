@@ -11,7 +11,7 @@ const start = 0;
 const end = 200;
 const stepMilliseconds = 1;
 const number1Elem = document.querySelector('.number1');
-// const number2Elem = document.querySelector('.number2');
+const number2Elem = document.querySelector('.number2');
 
 const countup = (num, elem) => {
   elem.innerText = num;
@@ -25,4 +25,5 @@ const countup = (num, elem) => {
 };
 
 countup(start, number1Elem);
+countup(start, number2Elem);
 
